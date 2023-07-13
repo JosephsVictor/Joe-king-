@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" >
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+    <link rel="stylesheet" href="static/css/about.css">
+    <title>About Us</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?
+    family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;
+    1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.1/css/fontawesome.min.css" 
+integrity="sha384-QYIZto+st3yW+o8+5OHfT6S482Zsvz2WfOzpFSXMF9zqeLcFV0/wlZpMtyFcZALm" 
+crossorigin="anonymous">
+</head>
+<body>
+    <header class="header">
+        <a href="#" class="logo"> <img src="static/assets/logo.png"></a>
+        <div class="menu" id="navLinks">
+            <i class="fa fa-times" onclick="hideMenu()"></i>
+            <nav class="navbar">
+                <a href="website.html"> <i class="fas fa-home"></i> Home</a>
+                <a href="#" class="active"> <i class="fas fa-user-secret"></i> About Us</a>
+                <a href="web_designmore.html"> <i class="fas fa-edit"></i> Designs</a>
+                <a href="#"> <i class="fas fa-user-circle"></i> Contacts</a>
+            </nav>
+        </div>
+        <i class="fa fa-bars" onclick="showMenu()"></i>
+
+    </header>
+
+    <section class="home">
+        <div class="home-content">
+            <h1>Hi👋, I'm Joseph Victor</h1>
+            <h3>Graphics Designer</h3>
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Debitis, provident. Repellat 
+                veritatis id doloribus praesentium ut dolor commodi eius dolorum, 
+                quaerat culpa sunt voluptatem, iste voluptatibus 
+                pariatur mollitia, tenetur fuga? pariatur mollitiapariatur moll</p>
+            <div class="btn-box">
+                <a href="">Hire Me</a>
+                <a href="">Let's Talk</a>
+            </div>
+        </div>
+        <div class="social">
+            <a href=""> <i class="fab fa-facebook-f"></i> </a>
+            <a href=""> <i class="fab fa-twitter"></i> </a>
+            <a href=""> <i class="fab fa-whatsapp    "></i> </a>
+        </div>
+    </section>
+
+<!------JavaScript for Toggle Menu------>
+<script>
+
+    var navLinks = document.getElementById("navLinks");
+    function showMenu(){
+        navLinks.style.right = "0";
+    }
+    function hideMenu(){
+        navLinks.style.right = "-200px";
+    }
+
+</script>
+</body>
+</html>

@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Sign Up</title>
+    <link rel="stylesheet" href="static/css/signUp_style.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <script
+      src="https://kit.fontawesome.com/2b070e02a1.js"
+      crossorigin="anonymous"
+    ></script>
+    <style></style>
+  </head>
+  <body>
+    <div class="container">
+      <div class="signUp-box">
+        <div class="user-icon">
+          <i class="far fa-user"></i>
+        </div>
+        <form class="signUp" action="successful.html" method="post">
+
+          <div class="form-group">
+            <input
+              type="text"
+              placeholder="Username"
+              name="username"
+              id="username"
+              class="form-control"
+              required
+            />
+          </div>
+          <div class="form-group">
+            <input
+              type="text"
+              placeholder="First Name"
+              name="fname"
+              id="fname"
+              class="form-control"
+              required
+            />
+          </div>
+          <div class="form-group">
+            <input
+              type="text"
+              placeholder="Last Name"
+              name="lname"
+              id="lname"
+              class="form-control"
+              required
+            />
+          </div>
+          <div class="form-group">
+            <input
+              type="email"
+              placeholder="Email Address"
+              name="email"
+              id="email"
+              class="form-control"
+              required
+            />
+          </div>
+          <div class="form-group">
+            <input
+              type="password"
+              placeholder="Password"
+              id="passwd"
+              class="form-control"
+              name="passwd"
+              required
+            />
+          </div>
+          <div class="form-group">
+            <input
+              type="password"
+              placeholder="Confirm Password"
+              id="passwd2"
+              name="passwd2"
+              class="form-control"
+              required
+            />
+          </div>
+          <div class="form-group">
+            <label for="rememberme">
+              <input type="checkbox" name="rememberme" id="rememberme" />
+              Remember Password
+            </label>
+          </div>
+          <div class="form-group">
+            <button type="submit" class="full-btn">
+              <a href="successful.html"></a>Sign Up
+            </button>
+          </div>
+          <div class="form-group">
+            <p>Already Registered? <a href="Login">login</a></p>
+          </div>
+        </form>
+        <div class="serparater">Or login via social links</div>
+        <div class="social-login">
+          <a href="facebook">
+            <i class="fab fa-facebook-f"></i>
+            Facebook
+          </a>
+          <a href="google">
+            <i class="fab fa-google"></i>
+            Google
+          </a>
+        </div>
+      </div>
+    </div>
+    <script src="" async defer></script>
+  </body>
+</html>
